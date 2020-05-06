@@ -1,0 +1,127 @@
+/*навігіціі і зіголовків color: #212121;
+ синій color: #2196f3;
+колір телефону color: #757575;
+параграфи color: #757575;
+зсилки в футері color: rgba(255, 255, 255, 0.6);
+копірайт color: rgba(255, 255, 255, 0.4);
+
+
+
+/* MAIN */
+body {
+  color: #757575;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.section-title {
+  color: #212121;
+}
+
+.social-links .link {
+  border-radius: 50%;
+}
+
+.social-links .link:hover,
+.social-links .link:focus {
+  background-color: #2196f3;
+}
+
+/* .social-links .link:active {
+  background-color: red;
+} */
+
+/* end MAIN */
+
+/* HEADER */
+.logo {
+  color: #2196f3;
+}
+.nav-link {
+  color: #212121;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  background-color: #2196f3;
+}
+
+.header-contact {
+  color: #757575;
+}
+
+.header-contact:hover,
+.header-contact:focus {
+  color: #2196f3;
+}
+/* end HEADER */
+
+/* FEATURES */
+.features-item {
+  color: #212121;
+}
+
+.features-img {
+  background-color: #f5f4fa;
+}
+
+.features-img:hover {
+  background-color: #2196f3;
+}
+/* end FEATURES */
+
+/* WORK */
+.work-item {
+  background-color: rgba(47, 48, 58, 0.8);
+  color: #ffffff;
+}
+/* end WORK */
+
+/* OUR TEAM */
+.team {
+  background-color: #f5f4fa;
+}
+
+.name-worker {
+  color: #212121;
+}
+/* end OUR TEAM  */
+
+/* CLIENTS */
+.clients .link:hover,
+.clients .link:focus {
+  background-color: #2196f3;
+}
+/* end CLIENTS */
+
+/* FOOTER */
+.footer {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+
+.footer-logo {
+  color: #ffffff;
+}
+
+.footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.botton {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+}
+/* end FOOTER */
