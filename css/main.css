@@ -1,143 +1,71 @@
-/*навігіціі і зіголовків color: #212121;
- синій color: #2196f3;
-колір телефону color: #757575;
-параграфи color: #757575;
-зсилки в футері color: rgba(255, 255, 255, 0.6);
-копірайт color: rgba(255, 255, 255, 0.4);
-
-
-
-/* MAIN */
-body {
-  color: #757575;
-}
-ul {
-  list-style: none;
-}
-a {
-  text-decoration: none;
-}
-
-.botton {
-  width: 200px;
-  height: 50px;
-  color: #ffffff;
-  background-color: #2196f3;
-  border-radius: 4px;
-  border: none;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
-.botton:hover {
-  background-color: #ffffff;
-  color: #2196f3;
-}
-
-.section-title {
-  color: #212121;
-}
-
-.social-links .link {
-  border-radius: 50%;
-}
-
-.social-links .link:hover,
-.social-links .link:focus {
-  background-color: #2196f3;
-}
-
-/* .social-links .link:active {
-  background-color: red;
-} */
-
-/* end MAIN */
-
-/* HEADER */
-.logo {
-  color: #2196f3;
-}
-.nav-link {
-  color: #212121;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  background-color: #2196f3;
-}
-
-.header-contact {
-  color: #757575;
-}
-
-.header-contact:hover,
-.header-contact:focus {
-  color: #2196f3;
-}
-/* end HEADER */
-
 /* HERO */
 .hero-title {
-  color: #ffffff;
+  color: var(--primary-white-color);
+  background-color: blue;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
 }
 /* end HERO */
 
 /* FEATURES */
 .features-item {
-  color: #212121;
+  color: var(--title-text-color);
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .features-img {
-  background-color: #f5f4fa;
+  background-color: var(--secondary-bg-color);
 }
 
 .features-img:hover {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
+}
+
+.features-text {
+  line-height: 1.7;
 }
 /* end FEATURES */
 
 /* WORK */
 .work-item {
   background-color: rgba(47, 48, 58, 0.8);
-  color: #ffffff;
+  color: var(--primary-white-color);
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: center;
 }
 /* end WORK */
 
 /* OUR TEAM */
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--secondary-bg-color);
 }
 
 .name-worker {
-  color: #212121;
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.worker-profecion {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
 }
 /* end OUR TEAM  */
 
 /* CLIENTS */
 .clients .link:hover,
 .clients .link:focus {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
 /* end CLIENTS */
-
-/* FOOTER */
-.footer {
-  background-color: #2f303a;
-  color: #ffffff;
-}
-
-.footer-logo {
-  color: #ffffff;
-}
-
-.footer-contact {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.footer .link {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-.copyright {
-  color: rgba(255, 255, 255, 0.4);
-}
-/* end FOOTER */
