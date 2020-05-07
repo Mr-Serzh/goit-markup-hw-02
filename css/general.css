@@ -25,7 +25,7 @@ body {
 
 .botton {
   color: var(--primary-white-color);
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
